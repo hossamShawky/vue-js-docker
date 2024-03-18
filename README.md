@@ -19,6 +19,15 @@ npm run build
 ```
 npm run lint
 ```
+### Build Image
+```
+docker build -t vue .
 
+```
+
+### Create Container
+```
+docker run --name my-vue -itd -p 80:8080 vue
+```
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
